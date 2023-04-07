@@ -100,6 +100,7 @@ class LssMaster:
         message = bytearray(8)
 
         print("Testing testing")
+        print("Testing testing")
 
         message[0] = CS_SWITCH_STATE_GLOBAL
         message[1] = mode
