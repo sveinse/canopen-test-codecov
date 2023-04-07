@@ -99,6 +99,8 @@ class LssMaster:
         # Unused bytes are reserved and should be initialized with 0.
         message = bytearray(8)
 
+        print("Testing testing")
+
         message[0] = CS_SWITCH_STATE_GLOBAL
         message[1] = mode
         self.__send_command(message)
